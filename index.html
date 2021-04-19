@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todos</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="modal">
+        <!-- input text -->
+      </div>
+      <form class="form">
+        <input id="title-input" type="text" placeholder="project name" />
+        <textarea
+          name="project description"
+          placeholder="project descritption"
+          id="project-description"
+          cols="40"
+          rows="4"
+        ></textarea>
+        <button type="button" class="btn save-project">save</button>
+      </form>
+      <!-- aside -->
+      <aside class="side-panel">
+        <!-- day -->
+        <div class="day">
+          <h3>today</h3>
+          <hr />
+          <div id="project-container">
+            <!-- <div class="project">
+              <h3>project 1</h3>
+              <button class="btn delete-project">rem</button>
+            </div> -->
+          </div>
+        </div>
+        <!-- day end -->
+        <!-- week -->
+        <div class="week">
+          <h3>this week</h3>
+          <hr />
+          <div id="project-container">
+            <!-- <div class="project">
+            project 2<button class="btn delete-project">rem</button>
+          </div> -->
+          </div>
+        </div>
+        <!-- week end -->
+        <button class="add-project btn">+ Add project</button>
+      </aside>
+      <!-- aside end -->
+      <div class="central-section">
+        <section class="tasks">
+          <!-- tasks appear here -->
+          <div class="task">
+            <div class="task-desc">
+              <div class="title-container">
+                <h3 class="title">task title</h3>
+                <button class="btn edit-project-title">edit</button>
+              </div>
+              <hr />
+              <p class="task-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                minus praesentium inventore nisi in? Repellat minima in vero quo
+                voluptatem, quibusdam, doloribus quisquam, distinctio possimus
+                ad expedita ducimus iusto inventore!
+              </p>
+            </div>
+            <button class="btn delete-task">delete task</button>
+          </div>
+        </section>
+        <button class="add-task btn">+ add task</button>
+      </div>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "js to do list",
+  "main": "script.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staystrongbg/todos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staystrongbg/todos/issues"
+  },
+  "homepage": "https://github.com/staystrongbg/todos#readme",
+  "dependencies": {
+    "date-fns": "^2.21.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}

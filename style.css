@@ -1,0 +1,146 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Hack'; */
+}
+body {
+  background-color: black;
+}
+.content {
+  display: flex;
+  height: 100vh;
+  background-color: dimgrey;
+}
+.side-panel {
+  width: 20%;
+  min-width: 240px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  margin-right: 2px;
+}
+.central-section {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.day,
+.week {
+  padding: 0.5rem;
+}
+.day,
+.week {
+  margin: 0 0.3rem;
+  border-radius: 7px;
+}
+.day {
+  margin-top: 0.3rem;
+  background-color: gray;
+}
+.week {
+  margin-top: 0.3rem;
+  background-color: grey;
+}
+.btn {
+  margin: 0.5rem;
+  align-self: flex-end;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: dimgrey;
+  border: none;
+  border-radius: 5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  margin-bottom: 0.6rem;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+}
+.tasks {
+  background-color: transparent;
+}
+.task {
+  font-size: 20px;
+  background-color: dimgrey;
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Source Sans Pro';
+}
+.project {
+  font-family: 'Source Sans Pro';
+  margin-top: 3px;
+  padding: 7px;
+  background-color: dimgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-text {
+  margin-top: 7px;
+  font-family: 'Source Sans Pro';
+  display: flex;
+}
+.title-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 9, 9, 0.5);
+  visibility: hidden;
+}
+.form {
+  padding: 1rem;
+  display: none;
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  width: 60%;
+  height: 400px;
+  border-radius: 1rem;
+  background-color: dimgrey;
+  color: black;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+}
+input {
+  width: 80%;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #888;
+}
+textarea {
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  font-size: 20px;
+  width: 564px;
+  max-width: 564px;
+  max-height: 316px;
+  background-color: transparent;
+  border: 1px solid #888;
+}
